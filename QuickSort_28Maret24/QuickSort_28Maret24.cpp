@@ -1,10 +1,10 @@
 #include <iostream>
 using namespace std;
 
-
+//array of intergers to hold values
 int arr[20];
-int cmp_count = 0;
-int mov_count = 0;
+int cmp_count = 0;		//number of comparasion(perbandingan
+int mov_count = 0;		//number of data movements(data yg dipindahkan)
 int n;
 
 void input()
@@ -30,6 +30,7 @@ void input()
 	}
 }
 
+//swaps the element at index x with the element at index y
 void swap(int x, int y)
 {
 	int temp = arr[x];
