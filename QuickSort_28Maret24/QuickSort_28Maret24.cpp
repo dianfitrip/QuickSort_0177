@@ -29,3 +29,11 @@ void input()
 		cin >> arr[i]; 
 	}
 }
+
+void swap(int x, int y)
+{
+	int temp = arr[x];
+	arr[x] = arr[y];
+	arr[y] = temp;
+	mov_count++;
+}
