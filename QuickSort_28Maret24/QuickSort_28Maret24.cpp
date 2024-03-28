@@ -109,5 +109,10 @@ int main()
 		if (ch == 'n' || ch == 'N')
 			break;
 
-	}
+		system("pause");
+		system("CLS");
+
+	} while (true);
+
+	return 0;
 }
