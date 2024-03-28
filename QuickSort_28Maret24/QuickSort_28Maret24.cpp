@@ -50,5 +50,13 @@ void q_sort(int low, int high)
 	i = low + 1;
 	j = high;
 
-
+	while (i <= j)
+	{
+		while ((arr[i] <= pivot) && (i <= high))
+		{
+			i++;
+			cmp_count++; 
+		}
+		
+	}
 }
